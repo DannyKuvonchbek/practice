@@ -14,7 +14,7 @@ git status
 git add .
 git commit -m "feat: Initial Setup"
 
-git remote add origin https://github_address
+git remote add origin https://github.com/DannyKuvonchbek/practice.git
 git push origin master
 git pull origin master
 ...
