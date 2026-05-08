@@ -24,3 +24,23 @@ print(f"the result (3): {result}")
 
 result = course.replace("FullStack", "MasterClass")
 print(f"the result (4): {result}")
+
+print("======= boolean ======")
+
+# function > type() input() bool() int() str()
+y = input("Give your value for y:")
+print("y:", y)
+
+result = y.isnumeric()
+print(f"the input value is numeric: {result}")
+
+
+# TRUTHY vs FALSY
+# TRUTHY: true 100 -100 "MIT"
+# FALSY : False 0 "" none
+
+test_falsy = ""
+print("test_falsy:", bool(test_falsy))
+
+test_truthy = "MIT"
+print("test_truthy:", bool(test_truthy))
