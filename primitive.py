@@ -1,7 +1,7 @@
 print("===========")
 # in JAVA, variable is a name storage location!
 # in PYTHON, variable is named reference (yani veriabler reference nomlanishi)
-count = 100
+count = 1001
 count_type = type(count)
 # print("count:", count, count_type)
 print(f"the count: {count} and type: {count_type}")
