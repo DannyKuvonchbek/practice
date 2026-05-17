@@ -34,3 +34,15 @@ cars = [
 ]
 list_cars = [car[0] for car in cars if car]  # c version
 print("list_cars:", list_cars)
+
+print("========== set and dictionary comprehension ==========")
+numbs = [1, 2, 4, 2, 1, 20, 1, 4, 5, 4, 5]
+set_numbs = {*numbs}
+print("set_numbs:", set_numbs)
+
+dic_people = {person[0]: person[1] for person in people}  # b version
+print("dic_people:", dic_people)
+
+dict_people2 = {person[0]: person[1]
+                for person in people if person[1] > 20}  # c version
+print("dict_people2:", dict_people2)
