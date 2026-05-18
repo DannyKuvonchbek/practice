@@ -43,3 +43,17 @@ with Image.open("material/person.png") as img_obj:
     resized_img = img_obj.resize((200, 200))
     resized_img.show()
     resized_img.save("material/sample.png")
+
+print("========== Debugging ==========")
+
+
+def get_summary(*args):  # Define
+    total_amount = 0
+    for a in args:
+        total_amount += a
+    return total_amount
+
+
+test = 100
+result = get_summary(1, 2, 3, 4, 5)  # Call
+print("result:", result)
